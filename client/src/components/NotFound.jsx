@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import MetaTags from 'react-meta-tags';
 
-// UI
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NotFoundAsset from "../assets/img/notfound.png";
 
