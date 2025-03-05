@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import './index.css';
 
-// Importing JSX components
+// JSX components
 import Navigation from './components/Navigation'
 import Home from './components/Home'
 import Store from './components/Store'
@@ -34,7 +34,5 @@ ReactDOM.render(
     document.getElementById("root")
 );
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
+
 serviceWorker.unregister();

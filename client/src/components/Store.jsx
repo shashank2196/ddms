@@ -2,16 +2,16 @@
 import React, { Component } from "react";
 import MetaTags from 'react-meta-tags';
 
-// UI
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../App.css'
 import StoreAsset from "../assets/img/store.png";
 
-// Contract
+
 import getWeb3 from "../getWeb3";
 import PlanetOfDocs from "../contracts/PlanetOfDocs.json";
 
-// IPFS
+
 import ipfs from '../ipfs';
 
 class CheckFileExistError extends Error {

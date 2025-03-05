@@ -9,6 +9,7 @@
           "indexed": true,
           "internalType": "address",
           "name": "previousOwner",
+          
           "type": "address"
         },
         {

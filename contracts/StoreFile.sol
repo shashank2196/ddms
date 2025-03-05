@@ -41,6 +41,7 @@ contract StoreFile is Storage {
         uint id = files.length - 1;
         fileToOwner[id] = msg.sender;
         fileToHash[id] = _fileHash;
+        
         fileToName[id] = _name;
         ownerFileCount[msg.sender] = ownerFileCount[msg.sender].add(1);
         emit StoreFileEvent(_name, _fileHash, _owner, _storeDate);

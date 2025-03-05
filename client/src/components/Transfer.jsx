@@ -2,11 +2,11 @@
 import React, { Component } from "react";
 import MetaTags from 'react-meta-tags';
 
-// UI
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import TransferAsset from "../assets/img/transfer.png";
 
-// Contract
+
 import getWeb3 from "../getWeb3";
 import PlanetOfDocs from "../contracts/PlanetOfDocs.json";
 

@@ -1,11 +1,11 @@
 // Front-end
 import React, { Component } from "react";
 import MetaTags from 'react-meta-tags';
-// UI
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import MeAsset from "../assets/img/me.png";
 import MetamaskAsset from "../assets/img/metamask.png";
-// Contract
+
 import PlanetOfDocs from "../contracts/PlanetOfDocs.json";
 import getWeb3 from "../getWeb3";
 

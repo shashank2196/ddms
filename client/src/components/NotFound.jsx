@@ -5,6 +5,7 @@ import MetaTags from 'react-meta-tags';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NotFoundAsset from "../assets/img/notfound.png";
 
+//NotFound
 class NotFound extends Component {
     render () {
       return (

@@ -33,6 +33,7 @@ contract Storage is Ownable{
   mapping (uint => string) internal fileToHash;
   // Map file to name
   mapping (uint => string) internal fileToName;
+  
   // The number of files owned by the owner
   mapping (address => uint) internal ownerFileCount;
  

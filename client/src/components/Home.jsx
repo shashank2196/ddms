@@ -7,6 +7,7 @@ import MeAsset from "../assets/img/me.png";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+//Home
 function Home() {
   return (
     <div className="home">

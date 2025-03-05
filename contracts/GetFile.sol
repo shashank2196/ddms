@@ -23,6 +23,7 @@ contract GetFile is StoreFile {
       uint fileId = fileIds[i];
       fileNames[i] = fileToName[fileId];
       fileHashes[i] = fileToHash[fileId];
+      
     }
     return (fileNames, fileHashes);
   }

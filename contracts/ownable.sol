@@ -20,6 +20,7 @@ abstract contract Ownable {
   */
   constructor() {
     _owner = msg.sender;
+    
     emit OwnershipTransferred(address(0), _owner);
   }
 
