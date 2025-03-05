@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 
 import styles from "./TableFooter.module.css";
 
+//TableFooter
 const TableFooter = ({ range, setPage, page, slice }) => {
   useEffect(() => {
     if (slice.length < 1 && page !== 1) {
