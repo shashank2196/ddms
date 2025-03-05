@@ -5,6 +5,7 @@ import styles from "./Table.module.css";
 import TableFooter from "./TableFooter";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+//Table
 const Table = ({ data, rowsPerPage }) => {
   const [page, setPage] = useState(1);
   const { slice, range } = useTable(data, page, rowsPerPage);

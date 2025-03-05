@@ -17,6 +17,7 @@
     text-align: left;
     font-size: 14px;
     color: #2c3e50;
+    margin: 2px;
   }
   
   .tableHeader:first-child {
