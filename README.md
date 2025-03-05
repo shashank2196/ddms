@@ -178,8 +178,6 @@ Not Found Page              |
 
 ## Copyright
 
-Tugas Akhir - S1 Teknik Komputer Semester Ganjil 2021/2022
-
-© Copyright All Rights Reserved - Bagas Fadillah Islamay (2022)
+© Copyright All Rights Reserved
 
 
